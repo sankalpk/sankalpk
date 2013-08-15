@@ -66,8 +66,10 @@ configure :build do
   # Use relative URLs
   # activate :relative_assets
   activate :relative_assets
-  set :relative_links, true
+  #set :relative_links, true
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
+  set :http_path, "/sankalpk/"
+
 end
