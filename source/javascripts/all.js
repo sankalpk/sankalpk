@@ -4,6 +4,7 @@
 $(document).ready(function(){
 
 	$("#letsconnect").click(connectHandler);
+	$("#connectHide").click(closeConnect);
 });
 
 

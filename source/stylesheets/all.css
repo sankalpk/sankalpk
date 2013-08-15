@@ -75,11 +75,17 @@ a{
   margin:0 auto;
 }
 
-#connectExit{
+#connectHide{
   float:right;
-  font-size:25px;
-  margin-top:10px;
-  margin-right:10px;
+  font-size:14px;
+  padding-top:10px;
+  padding-right:10px;
+  padding-left:25px;
+  padding-bottom:25px;
+  cursor: pointer;
+  m:15px;
+
+  /*padding:5px;*/
 }
 
 .sidebar{
