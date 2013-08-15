@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+body {
+  background: #F7F7F7;
+  font-size: 18px;
+  line-height:26px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #636363;
+}
+
+nav{
+  position:fixed;
+  top:0px;
+  left:0px;
+  height:10px;
+  width:100%;
+  background-color:#636363;
+}
+
+nav span{
+  position:absolute;
+  color:#F7F7F7;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+  left:0px;
+  font-size:32px;
+  /*margin:10px 10px 10px 10px;*/
+}
+
+a{
+  text-decoration: none;
+  color:#940000;
+  cursor: pointer;
+  /*color:#F7F7F7;
+  background-color:#636363;
+  padding:3px;*/
+}
+
+#content{
+  margin-top:10px;
+}
+.welcome {
+  padding-top:40px;
+  width:400px;
+  color: #636363;
+  margin-left:auto;
+  margin-right:auto;
+  -webkit-animation-name: welcome;
+  -webkit-animation-duration: .9s; }
+
+@-webkit-keyframes welcome {
+  from {
+    -webkit-transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+   -webkit-transform: scale(0);
+   opacity: 0;
+  }
+  82.5% {
+    -webkit-transform: scale(1.03);
+    -webkit-animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+#homeprofile{
+  position:relative;
+  left:100px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin:0 auto;
+}
+
+#connectExit{
+  float:right;
+  font-size:25px;
+  margin-top:10px;
+  margin-right:10px;
+}
+
+.sidebar{
+  position: fixed;
+  top:0px;
+  right:0px;
+  width:300px;
+  height:100%;
+  background-color:#636363;
+  color:#F7F7F7;
+}
+
+.sidebar h1{
+  margin:20px;
+}
+
+.sidebar p{
+  margin:20px;
+}
+
+.sidebar a{
+  color:#F7F7F7;
+  border-bottom:1px dotted;
+
+}
+
+.sidebar ul{
+  list-style-type:none;
+  padding: 0px;
+  margin: 20px;
+  margin-top:25px;
+}
