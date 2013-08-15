@@ -83,15 +83,12 @@ a{
   padding-left:25px;
   padding-bottom:25px;
   cursor: pointer;
-  m:15px;
-
-  /*padding:5px;*/
 }
 
 .sidebar{
   position: fixed;
   top:0px;
-  right:0px;
+  right:-300px;
   width:300px;
   height:100%;
   background-color:#636363;
