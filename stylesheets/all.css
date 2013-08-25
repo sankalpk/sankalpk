@@ -35,6 +35,8 @@ a{
   padding:3px;*/
 }
 
+/* Home */
+
 #content{
   margin-top:10px;
 }
@@ -75,6 +77,8 @@ a{
   margin:0 auto;
 }
 
+/* Sidebar */
+
 #connectHide{
   float:right;
   font-size:14px;
@@ -114,4 +118,59 @@ a{
   padding: 0px;
   margin: 20px;
   margin-top:25px;
+}
+
+/* Portfolio */
+#portfolio{
+  padding-top:40px;
+  width:800px;
+  color: #636363;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.pitem{
+  margin-top:80px;
+  margin-bottom:30px;
+  padding-left:30px;
+  padding-top:10px;
+  /*background-color:#B8B8B8;*/
+  border-left:1px dotted #636363;
+}
+
+.pitem blockquote{
+  margin-right:0px;
+  padding-right:0px;
+}
+
+#portfolio h1 a{
+  border:none;
+  color: #940000;
+}
+#portfolio h2{
+  margin-top:0px;
+  margin-bottom:10px;
+  line-height:10px;
+}
+
+#portfolio h3{
+  margin-top:10px;
+  margin-bottom:0px;
+}
+
+.pitem img{
+  margin-right:30px;
+  margin-top:30px;
+  margin-bottom:30px;
+  margin-left:15px;
+  float:right;
+}
+
+#portfolio a{
+  color:#636363;
+  border-bottom:1px dotted;
+}
+
+.pitem .links{
+  clear:left;
 }
