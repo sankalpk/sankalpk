@@ -1,17 +1,14 @@
 About
 ======
-My personal website located at [sankalp221.com][http://www.sankalp221.com/].
+My personal website located at [sankalp221.com](http://www.sankalp221.com/).
 
 Deployment Process
 =======
-Make any changes in the source directory. To run the server locally and test run
+Make changes in the source directory. Then run the server locally
 
-  bundle exec middleman
+    bundle exec middleman
   
-To compile all files into the build directory run 
+To deploy
 
-  rake build
-
-To publish to github pages run
-
-  rake publish
+    rake build    # Compile all files into the build directory
+    rake publish  # Build and publish to Github Pages
